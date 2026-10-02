@@ -1,0 +1,11 @@
+alertname,service,severity,total_firings,no_action_firings,no_action_pct,avg_duration_sec,noise_score
+HighCPUUsage,node-exporter,warning,450,450,100.0,103.4,435.0
+DiskFillingFast,node-exporter,warning,380,380,100.0,97.6,389.26
+HighMemoryUsage,node-exporter,warning,290,290,100.0,100.7,287.9
+NetworkReceiveDropRate,network,warning,260,260,100.0,100.1,259.84
+HTTPClientSlowLatency,api-gateway,warning,240,240,100.0,101.0,237.74
+TemporaryLockContention,database,warning,210,210,100.0,97.9,214.6
+ContainerOOMKilledTransient,app-worker,warning,160,160,100.0,93.7,170.83
+HighContextSwitches,system,info,180,180,100.0,108.5,165.94
+DNSResolutionSlowSpike,coredns,warning,140,140,100.0,104.2,134.42
+NginxWorkerThreadStall,ingress,warning,120,120,100.0,96.5,124.33
