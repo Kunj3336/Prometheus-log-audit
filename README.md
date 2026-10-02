@@ -455,7 +455,7 @@ We deployed an isolated, reproducible monitoring stack using Docker Compose:
 
 All scrape endpoints (prometheus, node-exporter) verified in healthy UP state:
 
-`screenshots/01_prometheus_targets_up.png`
+![Prometheus Targets UP](screenshots/01_prometheus_targets_up.png)
 
 ---
 
@@ -463,7 +463,7 @@ All scrape endpoints (prometheus, node-exporter) verified in healthy UP state:
 
 Un-tuned baseline alerting rules verified and loaded into Prometheus daemon:
 
-`screenshots/02_baseline_alert_rules_loaded.png`
+![Prometheus Targets UP](screenshots/02_baseline_alert_rules_loaded.png)
 
 ---
 
@@ -471,7 +471,7 @@ Un-tuned baseline alerting rules verified and loaded into Prometheus daemon:
 
 Audit execution identifying the worst noise offenders over the 90-day simulation window:
 
-`screenshots/03_top_10_noise_audit_terminal.png`
+![Prometheus Targets UP](screenshots/03_top_10_noise_audit_terminal.png)
 
 ---
 
@@ -479,7 +479,7 @@ Audit execution identifying the worst noise offenders over the 90-day simulation
 
 Hot-reload executed; Prometheus actively running the tuned thresholds and durations:
 
-`screenshots/04_tuned_alert_rules_loaded.png`
+![Prometheus Targets UP](screenshots/04_tuned_alert_rules_loaded.png)
 
 ---
 
@@ -487,4 +487,4 @@ Hot-reload executed; Prometheus actively running the tuned thresholds and durati
 
 Validation script verifying 100% suppression of transient non-actionable spikes while retaining all genuine outages:
 
-`screenshots/05_noise_reduction_metrics.png`
+![Prometheus Targets UP](screenshots/05_noise_reduction_metrics.png)
